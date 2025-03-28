@@ -1,0 +1,5 @@
+include README.md
+include HISTORY.md
+include LICENSE
+include requirements.txt
+include assets/output_multi_page.PNG
