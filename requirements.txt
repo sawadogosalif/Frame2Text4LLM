@@ -1,2 +1,7 @@
+setuptools
 beartype
 loguru>=0.5.0
+pytesseract
+opencv-python
+matplotlib
+python-dotenv

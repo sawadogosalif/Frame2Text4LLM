@@ -19,6 +19,7 @@ doc = metadata["__doc__"]
 name = metadata["__name__"]
 url = metadata["__url__"]
 version = metadata["__version__"]
+print(version)
 
 with open("README.md") as readme_file:
     readme = readme_file.read()
@@ -43,7 +44,7 @@ test_requirements = [
 setup(
     name=name,
     url=url,
-    keywords=name,
+    #keywords=name,
     version=version,
     zip_safe=False,
     packages=find_packages(SRC_PATH),  # Include packages in src/
