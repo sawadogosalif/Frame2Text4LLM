@@ -5,3 +5,4 @@ pytesseract
 opencv-python
 matplotlib
 python-dotenv
+openpyxl
