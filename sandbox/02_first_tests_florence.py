@@ -9,7 +9,7 @@ from difflib import SequenceMatcher #find similarity between 2 strings
 from vlm_service import VLMService
 
 
-def extract_frames(video_path, sample_rate=2):
+def extract_frames(video_path, sample_rate=1):
     """yield (frame_no, timestamp_sec, gray_frame)."""
     cap = cv2.VideoCapture(video_path)
     fps = cap.get(cv2.CAP_PROP_FPS)
@@ -119,5 +119,5 @@ subs = video_to_subs_json(
     sample_rate=2, 
     vlm_model="OpenGVLab/InternVL2-1B"
 )
-with open("resultat_first_tests_internvl2.json", "w", encoding="utf-8") as f:
+with open(f"resultat_first_tests_internvl2.json", "w", encoding="utf-8") as f:
     json.dump(subs, f, ensure_ascii=False, indent=2)

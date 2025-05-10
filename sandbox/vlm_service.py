@@ -50,7 +50,8 @@ class VLMService:
                 trust_remote_code=True
             ).eval().cuda()
 
-            self.PROMPT_INTERNVL2 = """Extract and return only the text from the image without any additional commentary or introductory phrases."""
+            self.PROMPT_INTERNVL2 = """Extract and return only the text from the image without any additional commentary or introductory phrases. 
+            OCR output shoulb be beetween xml tags <ocr> and </ocr>. """
             self.IMAGENET_MEAN = (0.485, 0.456, 0.406)
             self.IMAGENET_STD = (0.229, 0.224, 0.225)
 
