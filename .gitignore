@@ -5,3 +5,5 @@
 **/*.egg-info
 **/*parquet
 build/
+.eggs/
+.github

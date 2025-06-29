@@ -6,3 +6,9 @@ opencv-python
 matplotlib
 python-dotenv
 openpyxl
+mistralai
+pandas
+transformers
+easyocr
+einops 
+timm
