@@ -1,14 +1,15 @@
 setuptools
 beartype
 loguru>=0.5.0
-pytesseract
-opencv-python
-matplotlib
-python-dotenv
-openpyxl
-mistralai
-pandas
-transformers
-easyocr
-einops 
-timm
+# pytesseract
+# opencv-python
+# matplotlib
+# python-dotenv
+# openpyxl
+# mistralai
+# pandas
+# transformers
+# easyocr
+# einops 
+# timm
+# pytubefix
