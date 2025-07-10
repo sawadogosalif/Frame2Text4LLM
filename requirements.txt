@@ -13,4 +13,7 @@ mistralai
 paddleocr==3.1.0  # API CHANGE SINCE VERSION 3.0.0
 torch # LOCALLY I NEED TO INSTALL TORCH NOT ON CALOB 
 easyocr
+einops 
+timm
+pytubefix
 ffmpeg-python>=0.2.0 or #winget install ffmpeg
